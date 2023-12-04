@@ -1,0 +1,339 @@
+@charset "UTF-8";
+
+/* -------------------------------------------------------------- Background */
+.bg-sipapapmaco{
+  background: rgb(0,128,0);
+  background: linear-gradient(180deg, rgba(0,128,0,0.8015581232492998) 5%, rgba(0,0,255,0.7959558823529411) 25%);
+}
+.bg-sipapapmaco-success{
+  background: #169b6b;
+  background: linear-gradient(180deg, #fff 15%, #169b6b 25%);
+}
+.bg-sipapapmaco-primary{
+  background: #5074dc;
+  background: linear-gradient(180deg, #fff 15%, #5074dc 25%);
+}
+.bg-sipapapmaco-danger{
+  background: #e74a3b;
+  background: linear-gradient(180deg, #fff 15%, #e74a3b 25%);
+}
+
+.bg-sipapapmaco-abstrack1{
+  background-color: #5B8BCC;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(316,960,468)'%3E%3Cstop offset='0' stop-color='%235B8BCC'/%3E%3Cstop offset='1' stop-color='%2372B84B'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='356' height='296.7' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.15'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+} 
+
+/* -------------------------------------------------------------- Blink */
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* -------------------------------------------------------------- Blur */
+.bd-blur{
+  background-color: #ffffff10;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+/* -------------------------------------------------------------- Border, hr Thickness */
+.border-1 {
+  border: 1px solid;
+  position: sticky;
+  border-radius: 5px;
+  border-spacing: 0cap;
+  border-width:1px !important;
+}
+.border-2 {
+  border: 2px solid;
+  border-radius: 5px;
+  border-width:2px !important;
+}
+.border-3 {
+  border: 3px solid;
+  border-radius: 5px;
+  border-width:3px !important;
+}
+.border-4 {
+  border: 4px solid;
+  border-radius: 5px;
+  border-width:4px !important;
+}
+.border-5 {
+  border: 5px solid;
+  border-radius: 5px;
+  border-width:5px !important;
+}
+
+.border-primary {
+  border-color: #5074dc;
+}
+.border-danger {
+  border-color: #e74a3b;
+}
+.border-info {
+  border-color: #36b9cc;
+}
+.border-success{
+  border-color: #169b6b;
+}
+.border-warning {
+  border-color: #f6c23e;
+}
+.border-secondary {
+  border-color: #858796;
+}
+.border-dark {
+  border-color: #0000;
+}
+.border-white {
+  border-color: #fff;
+}
+
+/* -------------------------------------------------------------- dataTable */
+#dataTable {
+  width:100% !important;
+}
+#dataTable_2 {
+  width:100% !important;
+}
+/* -------------------------------------------------------------- dropdown */
+.dropdown-menu-scroll {
+  max-height: 280px;
+  overflow-y: auto;
+}
+/* -------------------------------------------------------------- Flip */
+
+.flip-container {
+  position: relative;
+  perspective: 1000px;
+}
+
+.flip {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 6s;
+  transform-style: preserve-3d;
+}
+
+.flip:last-child {
+  transform: rotateY(180deg);
+}
+
+.flip-container:hover .flip {
+  transform: rotateY(180deg);
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.flip-container {
+  animation: flip 6s infinite;
+}
+
+/* -------------------------------------------------------------- Footer */
+
+
+.wrapper {
+  min-height: calc(100vh - 100px); /* Adjust the height of the wrapper to account for the height of the footer */
+  padding-bottom: 60px; /* Set the padding-bottom equal to the height of the footer */
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the height of the footer */
+}
+
+
+/* -------------------------------------------------------------- Fieldset, Legend */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.275rem + 0.3vw);
+  line-height: inherit;
+}
+/* -------------------------------------------------------------- Input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+    appearance:textfield;
+}
+
+.checkbox-md{
+  transform: scale(1.5); 
+  width: 15px; 
+  height: 15px;
+}
+  
+.checkbox-lg{
+  transform: scale(1.5); 
+  width: 25px; 
+height: 25px;
+}
+/* -------------------------------------------------------------- Loader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font: 14px arial;
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.loader-small {
+  border: 4px solid #73be44;
+  border-radius: 50%;
+  border-top: 4px solid #598eca;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+/* -------------------------------------------------------------- opacity */
+
+.opacity-0 {
+  opacity: 1.00;
+}
+.opacity-1 {
+  opacity: 0.95;
+}
+.opacity-2 {
+  opacity: 0.8;
+}
+.opacity-3 {
+  opacity: 0.7;
+}
+.opacity-4 {
+  opacity: 0.6;
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+
+
+/* -------------------------------------------------------------- Select2 */
+.select2-selection__rendered{
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  padding-right: 12px !important;
+}
+
+/* -------------------------------------------------------------- Table tfoot */
+table{
+  width: 100% !important;
+}
+
+tfoot {
+  display: table-header-group;
+}
+
+/* -------------------------------------------------------------- text */
+.b{
+  font-weight: bolder;
+}
+.i{
+  font-style: italic;
+}
+.u{
+  text-decoration: underline;
+}
+
+.radio {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+}
+
+input[class="radio"] {
+  display: none;
+}
+
+  .primary:checked+label {
+  color: white;
+  background-color: #4D72DD;
+}
+
+  .success:checked+label {
+  color: white;
+  background-color: #1CC88A;
+}
+
+  .warning:checked+label {
+  color: white;
+  background-color: #F6C23E;
+}
+
+.danger:checked+label {
+  color: white;
+  background-color: #E74A3B;
+}

@@ -1,0 +1,57 @@
+<?php
+include $_SERVER['DOCUMENT_ROOT'] . "/SM/_add-ons/koneksi.php";
+
+// echo "<pre>";
+// print_r($_POST);
+// echo "</pre>";
+
+$sql = "UPDATE tb_user_privileges SET";
+$sql .= " c_kuota = '" . $_POST['c_kuota'] . "',";
+$sql .= " r_kuota = '" . $_POST['r_kuota'] . "',";
+$sql .= " u_kuota = '" . $_POST['u_kuota'] . "', ";
+$sql .= " d_kuota = '" . $_POST['d_kuota'] . "', ";
+$sql .= " c_akun = '" . $_POST['c_akun'] . "',";
+$sql .= " r_akun = '" . $_POST['r_akun'] . "',";
+$sql .= " u_akun = '" . $_POST['u_akun'] . "', ";
+$sql .= " d_akun = '" . $_POST['d_akun'] . "', ";
+$sql .= " c_praktik = '" . $_POST['c_praktik'] . "',";
+$sql .= " r_praktik = '" . $_POST['r_praktik'] . "',";
+$sql .= " u_praktik = '" . $_POST['u_praktik'] . "', ";
+$sql .= " d_praktik = '" . $_POST['d_praktik'] . "', ";
+$sql .= " c_praktik_mess = '" . $_POST['c_praktik_mess'] . "',";
+$sql .= " r_praktik_mess = '" . $_POST['r_praktik_mess'] . "',";
+$sql .= " u_praktik_mess = '" . $_POST['u_praktik_mess'] . "', ";
+$sql .= " d_praktik_mess = '" . $_POST['d_praktik_mess'] . "', ";
+$sql .= " c_praktikan = '" . $_POST['c_praktikan'] . "',";
+$sql .= " r_praktikan = '" . $_POST['r_praktikan'] . "',";
+$sql .= " u_praktikan = '" . $_POST['u_praktikan'] . "', ";
+$sql .= " d_praktikan = '" . $_POST['d_praktikan'] . "',";
+$sql .= " c_praktik_pembimbing = '" . $_POST['c_praktik_pembimbing'] . "',";
+$sql .= " r_praktik_pembimbing = '" . $_POST['r_praktik_pembimbing'] . "',";
+$sql .= " u_praktik_pembimbing = '" . $_POST['u_praktik_pembimbing'] . "', ";
+$sql .= " d_praktik_pembimbing = '" . $_POST['d_praktik_pembimbing'] . "', ";
+$sql .= " c_praktik_tarif = '" . $_POST['c_praktik_tarif'] . "',";
+$sql .= " r_praktik_tarif = '" . $_POST['r_praktik_tarif'] . "',";
+$sql .= " u_praktik_tarif = '" . $_POST['u_praktik_tarif'] . "', ";
+$sql .= " d_praktik_tarif = '" . $_POST['d_praktik_tarif'] . "', ";
+$sql .= " c_praktik_bayar = '" . $_POST['c_praktik_bayar'] . "',";
+$sql .= " r_praktik_bayar = '" . $_POST['r_praktik_bayar'] . "',";
+$sql .= " u_praktik_bayar = '" . $_POST['u_praktik_bayar'] . "',";
+$sql .= " d_praktik_bayar = '" . $_POST['d_praktik_bayar'] . "',";
+$sql .= " c_praktik_nilai = '" . $_POST['c_praktik_nilai'] . "',";
+$sql .= " r_praktik_nilai = '" . $_POST['r_praktik_nilai'] . "',";
+$sql .= " u_praktik_nilai = '" . $_POST['u_praktik_nilai'] . "',";
+$sql .= " d_praktik_nilai = '" . $_POST['d_praktik_nilai'] . "',";
+$sql .= " c_arsip_praktik = '" . $_POST['c_arsip_praktik'] . "',";
+$sql .= " r_arsip_praktik = '" . $_POST['r_arsip_praktik'] . "',";
+$sql .= " u_arsip_praktik = '" . $_POST['u_arsip_praktik'] . "',";
+$sql .= " d_arsip_praktik = '" . $_POST['d_arsip_praktik'] . "',";
+$sql .= " c_pkd_narsum = '" . $_POST['c_pkd_narsum'] . "',";
+$sql .= " r_pkd_narsum = '" . $_POST['r_pkd_narsum'] . "',";
+$sql .= " u_pkd_narsum = '" . $_POST['u_pkd_narsum'] . "',";
+$sql .= " d_pkd_narsum = '" . $_POST['d_pkd_narsum'] . "'";
+$sql .= " WHERE id_user = " . $_POST['id_user'];
+
+// echo $sql . "<br>";
+$conn->query($sql);
+echo json_encode(['success' => 'Data Berhasil Diubah']);

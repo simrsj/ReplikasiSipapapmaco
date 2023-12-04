@@ -1,0 +1,7 @@
+# Rewrite Engine On
+# RewriteCond % { REQUEST_FILENAME }! -f
+# RewriteRule ^ ([ ^ \.] + ) $ $1.php[NC, L]
+# RewriteRule ^ ([ ^ \.] + ) $ $1.html[NC, L]
+
+# ErrorDocument 404 http://pagina.com/404
+#     Error Document 500 http://pagina.com/404
